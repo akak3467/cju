@@ -1,9 +1,14 @@
 // my git address: https://github.com/akak3467/cju.git
-import './App.css';
+import React from 'react';
 //import MyComponent from './MyComponent';
+import MyComponent from './MyComponent';
 
-function App() {
-  const name ='리엑트';
-  return(<div className="react">{name}</div>);
-}
+const App = () => {
+  return (
+     <MyComponent name="이시" 패이브={1}>
+       리액트
+     </MyComponent>
+  );
+};
+
 export default App;
